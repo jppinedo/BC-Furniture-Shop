@@ -1,0 +1,53 @@
+body {
+    background-color: #d5cbc1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    border: 0;
+    padding: 0.5rem 2rem;
+    background-color: #28315c;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f1231e;
+}
+
+.main-container {
+    width: 25rem;
+    margin: 4rem auto;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.separator {
+    height: 1px;
+    background-color: #000;
+    margin: 1rem 0;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 0.3rem;
+}
+
+#invoice-items td:last-child {
+    text-align: right;
+}
+
+#invoice-transaction td:nth-child(2) {
+    text-align: right;
+}
+
+#invoice-container button {
+    margin-top: 2rem;
+}

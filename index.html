@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Juan Pablo Pinedo">
+  <title>Furniture Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <div id="button-container">
+      <h1>Furniture Shop</h1>
+      <button type="button" onclick="startStore()">Make a Purchase</button>
+    </div>
+    <div id="invoice-container" style="display: none;">
+      <table cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <td>Item</td>
+            <td>Quantity</td>
+            <td>Unit Price</td>
+            <td>Price</td>
+          </tr>
+        </thead>
+        <tbody id="invoice-items"></tbody>
+      </table>
+
+      <div class="separator"></div>
+
+      <table cellpadding="0" cellspacing="0">
+        <tbody id="invoice-transaction"></tbody>
+      </table>
+
+      <button type="button" onclick="restartStore()">Shop Again</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
